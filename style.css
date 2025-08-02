@@ -1,0 +1,533 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    text-transform: capitalize;
+}
+:root{
+    --black:#000000;
+    --white:#ffffff;
+    --red:#ed1c24;
+    --green:#28a745;
+    --gray:#131212;
+}
+span{
+    font-family: 'Courier New', Courier, monospace;
+}
+@font-face {
+    font-family:futurck ;
+    src: url();
+}
+body{
+background-color: var(--black);
+color: var(--white);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* navbar :start */
+.min-logo{
+    width: 145px;;
+    height: 125px;
+    padding: 5px 0px;
+}
+.nav-items > a {
+color: var(--white);
+font-size: 1.9rem;
+text-decoration: none;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px opx;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+
+}
+.frenchise-btn{
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid #585353;
+    border-radius: 30px;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+.oredr-btn{
+background-color: var(--red);
+color: var(--white);
+border: 1px solid #2e2d2d;
+padding: 15px 10px;
+border-radius: 30px;
+text-transform: capitalize;
+}
+/* navbar endded */
+.img-min{
+    width: 100%;
+    
+}
+/* over brand strat  */
+.over-brand{
+    margin: 50px;
+}
+.over-brand >h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 100;
+}
+.over-brand > p{
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--gray);
+}
+.futurak-font{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 4.2rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.img-now{
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    
+
+}
+
+.children{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+.continer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.ordernow-btn{
+    background-color: transparent;
+    color: var(--white);
+    font-size: 1.5rem;
+    border: 1px solid #2e2d2d;
+    border-radius: 20px;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+
+/* .over-brand ended */
+/* locition :start  */
+.franchises-{
+    background-color: var(--gray);
+    color: var(--white);
+}
+.frenchise-1{
+    font-size: 2.5rem;
+    font-family: ;
+}
+.islamabad-1{
+    margin: 0px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.islamabad-1>h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.islamabad-1>p{
+    font-size:1rem ;
+    color:#e5e5e5
+}
+/* :start islamabad */
+
+.continer-1-islamabad{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    flex-wrap: wrap;
+    
+}
+.locition-islamabad{
+    margin: 30px 0px;
+    text-align: ;
+    font-size: 1.5rem;
+    line-height: 180%;
+    margin-left: 100px;
+    
+    
+    
+}
+.directions-btn{
+     background-color: transparent;
+    color: var(--white);
+    font-size: 1.5rem;
+    border: 1px solid #2e2d2d;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.locition-islamabad> small{
+    color: var(--red);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.img-islamabad{
+    
+    margin-right: 80px;
+    
+}
+/* endded islamabad  */
+/* :start faisalabad */
+
+.continer-1-faisalabad{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+.locition-faisalabad{
+    margin: 0px 0px;
+    text-align: ;
+    font-size: 1.5rem;
+    line-height: 200%;
+    width: 40%;
+    
+    
+}
+.directions-btn{
+     background-color: transparent;
+    color: var(--white);
+    font-size: 1.5rem;
+    border: 1px solid #2e2d2d;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+.locition-faisalabad> small{
+    color: var(--red);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+}
+.img-faisalabad{
+    margin-left: 30px;
+    
+   
+    
+}
+/* endded faislabad  */
+/* :start bahawalpur */
+
+.continer-1-bahawalpur{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    flex-wrap: wrap;
+    
+}
+.locition-bahawalpur{
+    margin: 30px 0px;
+    text-align: ;
+    font-size: 1.5rem;
+    line-height: 180%;
+    margin-left: 100px;
+    
+    
+    
+}
+.directions-btn{
+     background-color: transparent;
+    color: var(--white);
+    font-size: 1.5rem;
+    border: 1px solid #2e2d2d;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    
+}
+.locition-bahawalpur> small{
+    color: var(--red);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.img-bahawalpur{
+    
+    margin-right: 80px;
+    
+}
+/* endded bahawalpur */
+/* express loction strat  */
+.express-loction-1{
+     margin: 0px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.express-loction-2{
+display: flex;
+justify-content: center;
+gap: 30px;
+text-align: center;
+margin-top: 30px;
+flex-wrap: wrap;
+}
+.express-loction-2-1{
+    line-height: 230%;
+    font-size: 1.5rem;
+}
+.express-loction-2-1>small{
+    letter-spacing: 0.8em;
+    text-transform: uppercase;
+    color: var(--red)
+}
+.express-btn{
+     background-color: transparent;
+    color:var(--white);
+    font-size: 1.5rem;
+    border: 1px solid #2e2d2d;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.express-loction-2-2>small{
+    letter-spacing: 0.8em;
+    text-transform: uppercase;
+    color: var(--red)
+}
+.express-loction-2-2{
+    line-height: 230%;
+    font-size: 1.5rem;
+}
+.express-loction-2-3>small{
+    letter-spacing: 0.8em;
+    text-transform: uppercase;
+    color: var(--red)
+}
+.express-loction-2-3{
+    line-height: 230%;
+    font-size: 1.5rem;
+}
+.express-loction-2-4>small{
+    letter-spacing: 0.8em;
+    text-transform: uppercase;
+    color: var(--red)
+}
+.express-loction-2-4{
+    line-height: 230%;
+    font-size: 1.5rem;
+}
+.express-loction-2-5>small{
+    letter-spacing: 0.8em;
+    text-transform: uppercase;
+    color: var(--red)
+}
+.express-loction-2-5{
+    line-height: 230%;
+    font-size: 1.5rem;
+}
+.express-loction-2-6>small{
+    letter-spacing: 0.8em;
+    text-transform: uppercase;
+    color: var(--red)
+}
+.express-loction-2-6{
+    line-height: 230%;
+    font-size: 1.5rem;
+}
+.express-loction-2-7>small{
+    letter-spacing: 0.8em;
+    text-transform: uppercase;
+    color: var(--red)
+}
+.express-loction-2-7{
+    line-height: 230%;
+    font-size: 1.5rem;
+}
+.express-loction-2-8>small{
+    letter-spacing: 0.8em;
+    text-transform: uppercase;
+    color: var(--red)
+}
+.express-loction-2-8{
+    line-height: 230%;
+    font-size: 1.5rem;
+}
+.express-loction-2-9>small{
+    letter-spacing: 0.8em;
+    text-transform: uppercase;
+    color: var(--red)
+}
+.express-loction-2-9{
+    line-height: 230%;
+    font-size: 1.5rem;
+
+}
+/* .express-loction- endded  */
+/* strat viallge  */
+.village{
+    background-color: var(--gray);
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+  
+}
+.village-1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 40px 0px;
+    font-size: 2.5rem;
+      
+
+}
+.village-2{
+    display: flex;
+}
+.village-2-2{
+    font-size: 2.2rem;
+    margin-left: 20px;
+    line-height: 190%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.village-2-2>small{
+letter-spacing: 0.8em;
+    text-transform: uppercase;
+    color: var(--red)
+}
+.express-btn-1{
+     background-color: var(--green);
+    color:var(--white);
+    font-size: 1.5rem;
+    font-family;Inter: 
+    border: 1px solid #2e2d2d;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    
+}
+/* last its  */
+
+
+
+<style>
+    section.franchises_express_section {
+        padding: 60px 0px 38px;
+        position: relative;
+        z-index: 11;
+    }
+
+    .snp-left-shape-hold {
+        position: absolute;
+        left: 0px;
+        top: -40px;
+        z-index: -111;
+    }
+
+    .location-card-box-h p {
+        font-family: 'FuturaBlack BT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 29px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .main_custom_heading h2 small {
+        font-style: normal;
+        font-size: 26px;
+        line-height: 31px;
+        color: #FFFFFF;
+    }
+
+    section.franchises_express_section .main_custom_heading {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .main-position-hold {
+        justify-content: center;
+    }
+
+    .location-card-box-h {
+        height: 230px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        text-align: center;
+        padding: 25px 24px;
+        margin: auto;
+        margin-bottom: 32px;
+    }
+
+    .location-card-box-h img {
+        display: block;
+        margin: auto;
+        margin-bottom: 16px;
+    }
+
+    .location-card-box-h small {
+        font-family: 'Apercu';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.48em;
+        text-transform: uppercase;
+        color: #ED1C24;
+        margin-bottom: 8px;
+        display: inline-block;
+    }
+
+    .location-card-box-h h4 {
+        font-family: 'FuturaBlack BT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .location-card-box-h h4 span.logo-text-hold-second {
+        font-weight: 600;
+        margin-right: 8px;
+        font-size: 24px;
+    }
+
+    .franchises_express_section .row {
+        row-gap: 20px;
+    }
+</style>
+/* foter its  */

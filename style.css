@@ -441,7 +441,7 @@ letter-spacing: 0.8em;
 
 
 
-<style>
+/* <style>
     section.franchises_express_section {
         padding: 60px 0px 38px;
         position: relative;
@@ -530,4 +530,187 @@ letter-spacing: 0.8em;
         row-gap: 20px;
     }
 </style>
-/* foter its  */
+foter its  */
+
+
+
+/* .Opening :start  */
+.sa-1{
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 2.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 180%;
+}
+.Opening{
+margin: 10px 50px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+gap: 20px;
+
+}
+.Opening-1{
+    background-color: var(--white);
+    color: var(--black);
+    width: 420px;
+    height: 250px;
+     margin: 10px 0px;
+     
+}
+.Opening-2{
+    background-color: var(--white);
+    color: var(--black);
+    width:420px;
+    height: 250px;
+     margin: 10px 0px;
+}
+.Opening-3{
+    background-color: var(--white);
+    color: var(--black);
+    width: 420px;
+    height: 250px;
+     margin: 10px 0px;
+}
+.Opening-4{
+    background-color: var(--white);
+    color: var(--black);
+    width: 420px;
+    height: 250px;
+     margin: 10px 0px;
+}
+.Opening-5{
+    background-color: var(--white);
+    color: var(--black);
+    width: 420px;
+    height: 250px;
+     margin: 10px 0px;
+}
+.Opening-6{
+    background-color: var(--white);
+    color: var(--black);
+    width: 420px;
+    height: 250px;
+    margin: 10px 0px;
+}
+.Opening-7{
+    background-color: var(--white);
+    color: var(--black);
+    width: 420px;
+    height: 250px;
+     margin: 10px 0px;
+}
+.Opening-1> small{
+    color: var(--red);
+    letter-spacing: 0.2em;
+    font-size:1.2rem;
+}
+.Opening-2> small{
+    color: var(--red);
+    letter-spacing: 0.2em;
+    font-size:1.2rem;
+}
+.Opening-3> small{
+    color: var(--red);
+    letter-spacing: 0.2em;
+    font-size:1.2rem;
+}
+.Opening-4> small{
+    color: var(--red);
+    letter-spacing: 0.2em;
+    font-size:1.2rem;
+}
+.Opening-5> small{
+    color: var(--red);
+    letter-spacing: 0.2em;
+    font-size:1.2rem;
+}
+.Opening-6> small{
+    color: var(--red);
+    letter-spacing: 0.2em;
+    font-size:1.2rem;
+}
+.Opening-7> small{
+    color: var(--red);
+    letter-spacing: 0.2em;
+    font-size:1.2rem;
+}
+
+
+.section-1{
+    text-align: start;
+    margin: 80px 0px;
+    font-size: 1rem;
+    color: rgb(73, 73, 73);
+    line-height: 130%
+}
+/* .Opening endded  */
+
+
+/* foter strat  */
+.sa-2{
+    font-size: 2.7rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 80px ;
+}
+
+.last{
+    margin: 50px 100px;
+    display: flex;
+    gap: 40px;
+    
+    
+}
+.last-1{
+    width: 450px;
+    font-size: 1.6rem;
+    color:  #585353;
+   
+}
+.last-2{
+    width: 300px;
+    font-size: 1.6rem;
+    
+   
+}
+.last-2>a{
+    color: #585353;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+.last-3{
+    width: 250px;
+    font-size: 1.3rem;
+    
+   
+}
+.last-3>p{
+    color: #585353;
+    text-decoration: none;
+}
+.footer_socail_links {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+
+    .footer_socail_links a {
+        display: flex;
+        align-items: center;
+        margin-right: 8px;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: #ED1C24;
+        color: #fff;
+        border-radius: 50px;
+    }
+
+    .footer_socail_links a i {
+        color: #ffffff;
+        font-size: 17px;
+    }
+
+

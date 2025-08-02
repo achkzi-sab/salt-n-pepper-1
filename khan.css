@@ -7,6 +7,10 @@ html{
     font-size: 62.5%;
     text-transform: capitalize;
 }
+a{
+    color: var(--white);
+    text-decoration: none;
+}
 :root{
     --black:#000000;
     --white:#ffffff;
